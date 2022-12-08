@@ -34,7 +34,7 @@ $(function () {
                 }
             },
             legend: {
-                data: ['预测指标量', '实际指标量'],
+                data: ['预测指标量', '产量'],
                 top: '5%',
                 textStyle: {
                     color: "#fff",
@@ -43,6 +43,13 @@ $(function () {
                 },
 
                 //itemGap: 35
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {
+                        backgroundColor: "#0d1544"
+                    }
+                }
             },
             grid: {
                 left: '0%',
@@ -53,7 +60,7 @@ $(function () {
             },
             xAxis: [{
                 type: 'category',
-                data: ['1', '2', '3', '4', '5', '6', '7'],
+                data: ['001号产业线', '002号产业线', '003号产业线', '004号产业线', '005号产业线', '006号产业线', '007号产业线'],
                 axisLine: {
                     show: true,
                     lineStyle: {
@@ -106,23 +113,23 @@ $(function () {
                 }],
             series: [
 
+                // {
+                //     name: '预测指标量',
+                //     type: 'line',
+                //     smooth: true,
+                //     data: [5, 2, 6, 4, 5, 12, 20],
+                //     barWidth: '15',
+                //     // barGap: 1,
+                //     itemStyle: {
+                //         normal: {
+                //             color: '#62c98d',
+                //             opacity: 1,
+                //             barBorderRadius: 5,
+                //         }
+                //     }
+                // },
                 {
-                    name: '预测指标量',
-                    type: 'line',
-                    smooth: true,
-                    data: [5, 2, 6, 4, 5, 12, 20],
-                    barWidth: '15',
-                    // barGap: 1,
-                    itemStyle: {
-                        normal: {
-                            color: '#62c98d',
-                            opacity: 1,
-                            barBorderRadius: 5,
-                        }
-                    }
-                },
-                {
-                    name: '实际指标量',
+                    name: '产量',
                     type: 'line',
                     smooth: true,
                     data: [7, 11, 8, 13, 10, 13, 10],
@@ -161,11 +168,11 @@ $(function () {
     function echarts_3() {
         var myChart = echarts.init(document.getElementById('echart3'));
         var spNum = 5, _max = 100;
-        var legendData = ['已完成', '残缺品'];
+        // var legendData = ['已完成', '残缺品'];
         var y_data = ['产业线1', '产业线2', '产业线3', '产业线4'];
 
-        var data1 = [10, 15, 100, 13];
-        var data2 = [19, 50, 40, 33];
+        var data1 = [99, 98, 97, 96];
+        var data2 = [1, 2, 5, 2];
 
         var fomatter_fn = function (v) {
             return (v.value / _max * 100).toFixed(0)
@@ -193,6 +200,13 @@ $(function () {
             tooltip: {
                 show: true,
                 formatter: '{b}<br/>{a}:{c}'
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {
+                        backgroundColor: "#0d1544"
+                    }
+                }
             },
             xAxis: {
                 splitNumber: spNum,
@@ -241,7 +255,7 @@ $(function () {
             }],
             series: [{
                 type: 'bar',
-                name: '已完成',
+                name: '良品数',
                 stack: '2',
                 label: _label,
                 legendHoverLink: false, barWidth: '50%',
@@ -256,7 +270,7 @@ $(function () {
                 data: data1
             }, {
                 type: 'bar',
-                name: '残缺品',
+                name: '残缺数',
                 stack: '2',
                 legendHoverLink: false, barWidth: '50%',
                 label: _label,
@@ -279,7 +293,7 @@ $(function () {
     function bt01() {
         var myChart = echarts.init(document.getElementById('bt01'));
         var data1 = 104//己完成
-        var data2 = 18//残缺品
+        var data2 = 10//残缺品
         var data3 = data1 / (data1 + data2) * 100
         option = {
             title: [{
@@ -302,7 +316,7 @@ $(function () {
                 }
 
             }, {
-                text: '产业线4',
+                text: '001号产业线',
                 x: 'center', y: '20',
                 textStyle: {
                     fontSize: 14,
@@ -363,7 +377,7 @@ $(function () {
     }
     function bt02() {
         var myChart = echarts.init(document.getElementById('bt02'));
-        var data1 = 14//己完成
+        var data1 = 140//己完成
         var data2 = 18//残缺品
         var data3 = data1 / (data1 + data2) * 100
         option = {
@@ -387,7 +401,7 @@ $(function () {
                 }
 
             }, {
-                text: '产业线1',
+                text: '002号产业线',
                 x: 'center', y: '20',
                 textStyle: {
                     fontSize: 14,
@@ -449,7 +463,7 @@ $(function () {
     function bt03() {
         var myChart = echarts.init(document.getElementById('bt03'));
         var data1 = 104//己完成
-        var data2 = 108//残缺品
+        var data2 = 9//残缺品
         var data3 = data1 / (data1 + data2) * 100
         option = {
             title: [{
@@ -473,7 +487,7 @@ $(function () {
                 }
 
             }, {
-                text: '产业线1',
+                text: '003号产业线',
                 x: 'center', y: '20',
                 textStyle: {
                     fontSize: 14,
@@ -524,7 +538,7 @@ $(function () {
     function bt04() {
         var myChart = echarts.init(document.getElementById('bt04'));
         var data1 = 1000//己完成
-        var data2 = 552//残缺品
+        var data2 = 52//残缺品
         var data3 = data1 / (data1 + data2) * 100
         option = {
             title: [{
@@ -547,7 +561,7 @@ $(function () {
                 }
 
             }, {
-                text: '产业线1',
+                text: '004号产业线',
                 x: 'center',
                 y: '20',
                 textStyle: {

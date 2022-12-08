@@ -1,40 +1,40 @@
-2022-12-07 18:18:01.980  INFO 16896 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 16896 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
-2022-12-07 18:18:01.988  INFO 16896 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
-2022-12-07 18:18:05.579  INFO 16896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 50401 (http)
-2022-12-07 18:18:05.594  INFO 16896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-12-07 18:18:05.594  INFO 16896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-12-07 18:18:05.748  INFO 16896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-12-07 18:18:05.749  INFO 16896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3644 ms
-2022-12-07 18:18:07.678  INFO 16896 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
-2022-12-07 18:18:07.747  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:07.789  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:07.822  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:07.839  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:07.852  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:07.931  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:07.981  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:07.997  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:08.507  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:08.523  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:08.593  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:08.717  INFO 16896 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
-2022-12-07 18:18:09.044  INFO 16896 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
-2022-12-07 18:18:09.044  INFO 16896 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
-2022-12-07 18:18:09.044  INFO 16896 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
-2022-12-07 18:18:09.046  INFO 16896 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
-2022-12-07 18:18:09.147  INFO 16896 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
-2022-12-07 18:18:09.147  INFO 16896 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
-2022-12-07 18:18:09.147  INFO 16896 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
-2022-12-07 18:18:09.147  INFO 16896 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
-2022-12-07 18:18:09.148  INFO 16896 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
-2022-12-07 18:18:09.149  INFO 16896 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
-2022-12-07 18:18:09.461  INFO 16896 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
-2022-12-07 18:18:09.461  INFO 16896 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
-2022-12-07 18:18:10.215  INFO 16896 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2022-12-07 18:18:10.250  INFO 16896 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2022-12-07 18:18:10.250  INFO 16896 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
-2022-12-07 18:18:10.251  INFO 16896 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2022-12-07 18:18:10.252  INFO 16896 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2022-12-08 17:21:43.662  INFO 13332 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 13332 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
+2022-12-08 17:21:43.673  INFO 13332 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-08 17:21:47.225  INFO 13332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 50401 (http)
+2022-12-08 17:21:47.241  INFO 13332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-08 17:21:47.242  INFO 13332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-08 17:21:47.419  INFO 13332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-08 17:21:47.419  INFO 13332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3628 ms
+2022-12-08 17:21:49.647  INFO 13332 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
+2022-12-08 17:21:49.721  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:49.770  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:49.799  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:49.821  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:49.836  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:49.926  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:49.984  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:50.001  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:50.525  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:50.543  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:50.621  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:50.770  INFO 13332 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:21:51.127  INFO 13332 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
+2022-12-08 17:21:51.128  INFO 13332 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
+2022-12-08 17:21:51.128  INFO 13332 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
+2022-12-08 17:21:51.129  INFO 13332 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
+2022-12-08 17:21:51.235  INFO 13332 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
+2022-12-08 17:21:51.235  INFO 13332 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
+2022-12-08 17:21:51.235  INFO 13332 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
+2022-12-08 17:21:51.235  INFO 13332 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
+2022-12-08 17:21:51.235  INFO 13332 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
+2022-12-08 17:21:51.236  INFO 13332 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
+2022-12-08 17:21:51.529  INFO 13332 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
+2022-12-08 17:21:51.529  INFO 13332 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
+2022-12-08 17:21:52.297  INFO 13332 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-12-08 17:21:52.334  INFO 13332 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-12-08 17:21:52.335  INFO 13332 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-12-08 17:21:52.336  INFO 13332 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-12-08 17:21:52.337  INFO 13332 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -42,21 +42,793 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2022-12-07 18:18:10.252  INFO 16896 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2022-12-07 18:18:10.252  INFO 16896 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
-2022-12-07 18:18:10.252  INFO 16896 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7c098bb3
-2022-12-07 18:18:10.525  WARN 16896 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2022-12-07 18:18:10.526  INFO 16896 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
-2022-12-07 18:18:10.583  INFO 16896 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2022-12-07 18:18:10.655  INFO 16896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50401 (http) with context path ''
-2022-12-07 18:18:10.657  INFO 16896 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2022-12-07 18:18:10.657  INFO 16896 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2022-12-07 18:18:10.761  INFO 16896 --- [main] org.datagear.web.DataGearApplication     : Started DataGearApplication in 9.417 seconds (JVM running for 10.05)
-2022-12-07 18:18:16.345  INFO 16896 --- [http-nio-50401-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-07 18:18:16.346  INFO 16896 --- [http-nio-50401-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-12-07 18:18:16.347  INFO 16896 --- [http-nio-50401-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-12-07 19:29:40.057  INFO 16896 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-12-07 19:29:40.326  INFO 16896 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2022-12-07 19:29:40.326  INFO 16896 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-12-07 19:29:40.326  INFO 16896 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-12-07 19:29:40.327  INFO 16896 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-12-08 17:21:52.337  INFO 13332 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-12-08 17:21:52.337  INFO 13332 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-12-08 17:21:52.337  INFO 13332 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7c098bb3
+2022-12-08 17:21:52.637  WARN 13332 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-12-08 17:21:52.638  INFO 13332 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
+2022-12-08 17:21:52.694  INFO 13332 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-12-08 17:21:52.753  WARN 13332 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 50401 is already in use
+2022-12-08 17:21:52.754  INFO 13332 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2022-12-08 17:21:52.754  INFO 13332 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-12-08 17:21:52.754  INFO 13332 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-12-08 17:21:52.755  INFO 13332 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-12-08 17:21:52.763  INFO 13332 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-08 17:21:52.774  INFO 13332 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 17:21:52.811 ERROR 13332 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 50401 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 50401 or configure this application to listen on another port.
+
+2022-12-08 17:25:04.310  INFO 17224 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 17224 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
+2022-12-08 17:25:04.322  INFO 17224 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-08 17:25:10.960  INFO 17224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 50401 (http)
+2022-12-08 17:25:10.991  INFO 17224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-08 17:25:10.991  INFO 17224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-08 17:25:11.274  INFO 17224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-08 17:25:11.274  INFO 17224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6748 ms
+2022-12-08 17:25:14.628  INFO 17224 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
+2022-12-08 17:25:14.736  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:14.814  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:14.861  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:14.892  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:14.929  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:15.065  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:15.159  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:15.190  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:16.132  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:16.161  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:16.271  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:16.491  INFO 17224 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:25:17.071  INFO 17224 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
+2022-12-08 17:25:17.071  INFO 17224 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
+2022-12-08 17:25:17.071  INFO 17224 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
+2022-12-08 17:25:17.071  INFO 17224 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
+2022-12-08 17:25:17.259  INFO 17224 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
+2022-12-08 17:25:17.259  INFO 17224 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
+2022-12-08 17:25:17.259  INFO 17224 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
+2022-12-08 17:25:17.259  INFO 17224 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
+2022-12-08 17:25:17.259  INFO 17224 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
+2022-12-08 17:25:17.259  INFO 17224 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
+2022-12-08 17:25:17.808  INFO 17224 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
+2022-12-08 17:25:17.808  INFO 17224 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
+2022-12-08 17:25:19.157  INFO 17224 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-12-08 17:25:19.220  INFO 17224 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-12-08 17:25:19.220  INFO 17224 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-12-08 17:25:19.220  INFO 17224 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-12-08 17:25:19.220  INFO 17224 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-12-08 17:25:19.220  INFO 17224 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-12-08 17:25:19.220  INFO 17224 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-12-08 17:25:19.235  INFO 17224 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ae67cad
+2022-12-08 17:25:19.659  WARN 17224 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-12-08 17:25:19.659  INFO 17224 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
+2022-12-08 17:25:19.754  INFO 17224 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-12-08 17:25:19.840  WARN 17224 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 50401 is already in use
+2022-12-08 17:25:19.840  INFO 17224 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2022-12-08 17:25:19.840  INFO 17224 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-12-08 17:25:19.840  INFO 17224 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-12-08 17:25:19.840  INFO 17224 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-12-08 17:25:19.848  INFO 17224 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-08 17:25:19.863  INFO 17224 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 17:25:19.942 ERROR 17224 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 50401 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 50401 or configure this application to listen on another port.
+
+2022-12-08 17:27:10.245  INFO 20128 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 20128 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
+2022-12-08 17:27:10.245  INFO 20128 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-08 17:27:17.039  INFO 20128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 50401 (http)
+2022-12-08 17:27:17.070  INFO 20128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-08 17:27:17.070  INFO 20128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-08 17:27:17.400  INFO 20128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-08 17:27:17.400  INFO 20128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6935 ms
+2022-12-08 17:27:20.821  INFO 20128 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
+2022-12-08 17:27:20.933  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:21.009  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:21.056  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:21.088  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:21.103  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:21.245  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:21.333  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:21.354  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:22.185  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:22.201  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:22.280  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:22.405  INFO 20128 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:22.719  INFO 20128 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
+2022-12-08 17:27:22.719  INFO 20128 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
+2022-12-08 17:27:22.719  INFO 20128 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
+2022-12-08 17:27:22.719  INFO 20128 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
+2022-12-08 17:27:22.813  INFO 20128 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
+2022-12-08 17:27:22.813  INFO 20128 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
+2022-12-08 17:27:22.813  INFO 20128 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
+2022-12-08 17:27:22.813  INFO 20128 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
+2022-12-08 17:27:22.813  INFO 20128 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
+2022-12-08 17:27:22.813  INFO 20128 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
+2022-12-08 17:27:23.111  INFO 20128 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
+2022-12-08 17:27:23.111  INFO 20128 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
+2022-12-08 17:27:23.848  INFO 20128 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-12-08 17:27:23.879  INFO 20128 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-12-08 17:27:23.879  INFO 20128 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-12-08 17:27:23.879  INFO 20128 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-12-08 17:27:23.879  INFO 20128 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-12-08 17:27:23.879  INFO 20128 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-12-08 17:27:23.879  INFO 20128 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-12-08 17:27:23.879  INFO 20128 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ae67cad
+2022-12-08 17:27:24.115  WARN 20128 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-12-08 17:27:24.115  INFO 20128 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
+2022-12-08 17:27:24.162  INFO 20128 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-12-08 17:27:24.209  WARN 20128 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 50401 is already in use
+2022-12-08 17:27:24.209  INFO 20128 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2022-12-08 17:27:24.209  INFO 20128 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-12-08 17:27:24.209  INFO 20128 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-12-08 17:27:24.209  INFO 20128 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-12-08 17:27:24.225  INFO 20128 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-08 17:27:24.225  INFO 20128 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 17:27:24.256 ERROR 20128 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 50401 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 50401 or configure this application to listen on another port.
+
+2022-12-08 17:27:29.429  INFO 372 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 372 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
+2022-12-08 17:27:29.429  INFO 372 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-08 17:27:32.759  INFO 372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 50401 (http)
+2022-12-08 17:27:32.770  INFO 372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-08 17:27:32.770  INFO 372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-08 17:27:32.927  INFO 372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-08 17:27:32.927  INFO 372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3388 ms
+2022-12-08 17:27:34.671  INFO 372 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
+2022-12-08 17:27:34.733  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:34.780  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:34.812  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:34.827  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:34.843  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:34.921  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:34.984  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:35.000  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:35.502  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:35.518  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:35.581  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:35.706  INFO 372 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:27:36.004  INFO 372 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
+2022-12-08 17:27:36.004  INFO 372 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
+2022-12-08 17:27:36.004  INFO 372 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
+2022-12-08 17:27:36.004  INFO 372 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
+2022-12-08 17:27:36.098  INFO 372 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
+2022-12-08 17:27:36.098  INFO 372 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
+2022-12-08 17:27:36.098  INFO 372 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
+2022-12-08 17:27:36.098  INFO 372 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
+2022-12-08 17:27:36.098  INFO 372 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
+2022-12-08 17:27:36.098  INFO 372 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
+2022-12-08 17:27:36.381  INFO 372 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
+2022-12-08 17:27:36.381  INFO 372 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
+2022-12-08 17:27:37.087  INFO 372 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-12-08 17:27:37.134  INFO 372 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-12-08 17:27:37.134  INFO 372 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-12-08 17:27:37.134  INFO 372 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-12-08 17:27:37.134  INFO 372 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-12-08 17:27:37.134  INFO 372 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-12-08 17:27:37.134  INFO 372 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-12-08 17:27:37.134  INFO 372 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ae67cad
+2022-12-08 17:27:37.385  WARN 372 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-12-08 17:27:37.385  INFO 372 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
+2022-12-08 17:27:37.432  INFO 372 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-12-08 17:27:37.479  WARN 372 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 50401 is already in use
+2022-12-08 17:27:37.479  INFO 372 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2022-12-08 17:27:37.479  INFO 372 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-12-08 17:27:37.479  INFO 372 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-12-08 17:27:37.479  INFO 372 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-12-08 17:27:37.495  INFO 372 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-08 17:27:37.495  INFO 372 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 17:27:37.542 ERROR 372 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 50401 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 50401 or configure this application to listen on another port.
+
+2022-12-08 17:28:04.874  INFO 10996 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 10996 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
+2022-12-08 17:28:04.890  INFO 10996 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-08 17:28:08.216  INFO 10996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 50401 (http)
+2022-12-08 17:28:08.232  INFO 10996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-08 17:28:08.232  INFO 10996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-08 17:28:08.373  INFO 10996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-08 17:28:08.373  INFO 10996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3389 ms
+2022-12-08 17:28:10.115  INFO 10996 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
+2022-12-08 17:28:10.178  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.209  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.240  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.272  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.272  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.366  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.413  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.429  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.930  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:10.946  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:11.024  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:11.150  INFO 10996 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:28:11.448  INFO 10996 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
+2022-12-08 17:28:11.448  INFO 10996 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
+2022-12-08 17:28:11.448  INFO 10996 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
+2022-12-08 17:28:11.448  INFO 10996 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
+2022-12-08 17:28:11.542  INFO 10996 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
+2022-12-08 17:28:11.542  INFO 10996 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
+2022-12-08 17:28:11.542  INFO 10996 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
+2022-12-08 17:28:11.542  INFO 10996 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
+2022-12-08 17:28:11.542  INFO 10996 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
+2022-12-08 17:28:11.557  INFO 10996 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
+2022-12-08 17:28:11.824  INFO 10996 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
+2022-12-08 17:28:11.824  INFO 10996 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
+2022-12-08 17:28:12.530  INFO 10996 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-12-08 17:28:12.577  INFO 10996 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-12-08 17:28:12.577  INFO 10996 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-12-08 17:28:12.577  INFO 10996 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-12-08 17:28:12.577  INFO 10996 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-12-08 17:28:12.577  INFO 10996 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-12-08 17:28:12.577  INFO 10996 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-12-08 17:28:12.577  INFO 10996 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ae67cad
+2022-12-08 17:28:12.797  WARN 10996 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-12-08 17:28:12.797  INFO 10996 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
+2022-12-08 17:28:12.843  INFO 10996 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-12-08 17:28:12.878  WARN 10996 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 50401 is already in use
+2022-12-08 17:28:12.891  INFO 10996 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2022-12-08 17:28:12.891  INFO 10996 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-12-08 17:28:12.891  INFO 10996 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-12-08 17:28:12.891  INFO 10996 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-12-08 17:28:12.891  INFO 10996 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-08 17:28:12.906  INFO 10996 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 17:28:12.938 ERROR 10996 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 50401 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 50401 or configure this application to listen on another port.
+
+2022-12-08 17:29:32.049  INFO 1352 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 1352 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
+2022-12-08 17:29:32.049  INFO 1352 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-08 17:29:35.391  INFO 1352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 50401 (http)
+2022-12-08 17:29:35.407  INFO 1352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-08 17:29:35.407  INFO 1352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-08 17:29:35.564  INFO 1352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-08 17:29:35.564  INFO 1352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3390 ms
+2022-12-08 17:29:37.289  INFO 1352 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
+2022-12-08 17:29:37.352  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:37.399  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:37.430  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:37.446  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:37.462  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:37.540  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:37.602  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:37.619  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:38.105  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:38.120  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:38.199  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:38.325  INFO 1352 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:29:38.623  INFO 1352 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
+2022-12-08 17:29:38.623  INFO 1352 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
+2022-12-08 17:29:38.623  INFO 1352 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
+2022-12-08 17:29:38.623  INFO 1352 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
+2022-12-08 17:29:38.733  INFO 1352 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
+2022-12-08 17:29:38.733  INFO 1352 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
+2022-12-08 17:29:38.733  INFO 1352 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
+2022-12-08 17:29:38.733  INFO 1352 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
+2022-12-08 17:29:38.733  INFO 1352 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
+2022-12-08 17:29:38.733  INFO 1352 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
+2022-12-08 17:29:38.999  INFO 1352 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
+2022-12-08 17:29:38.999  INFO 1352 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
+2022-12-08 17:29:39.705  INFO 1352 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-12-08 17:29:39.752  INFO 1352 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-12-08 17:29:39.752  INFO 1352 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-12-08 17:29:39.752  INFO 1352 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-12-08 17:29:39.752  INFO 1352 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-12-08 17:29:39.752  INFO 1352 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-12-08 17:29:39.752  INFO 1352 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-12-08 17:29:39.752  INFO 1352 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ae67cad
+2022-12-08 17:29:39.956  WARN 1352 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-12-08 17:29:39.956  INFO 1352 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
+2022-12-08 17:29:40.019  INFO 1352 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-12-08 17:29:40.066  WARN 1352 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 50401 is already in use
+2022-12-08 17:29:40.066  INFO 1352 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2022-12-08 17:29:40.066  INFO 1352 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-12-08 17:29:40.066  INFO 1352 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-12-08 17:29:40.066  INFO 1352 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-12-08 17:29:40.066  INFO 1352 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-08 17:29:40.082  INFO 1352 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 17:29:40.113 ERROR 1352 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 50401 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 50401 or configure this application to listen on another port.
+
+2022-12-08 17:31:27.750  INFO 16484 --- [main] org.datagear.web.DataGearApplication     : Starting DataGearApplication using Java 1.8.0_341 on Vent-Code with PID 16484 (D:\Vento\Projects\Temp\datagear-4.2.0\datagear-4.2.0.jar started by Vento in D:\Vento\Projects\Temp\datagear-4.2.0)
+2022-12-08 17:31:27.754  INFO 16484 --- [main] org.datagear.web.DataGearApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-08 17:31:31.187  INFO 16484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2022-12-08 17:31:31.203  INFO 16484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-08 17:31:31.203  INFO 16484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-08 17:31:31.359  INFO 16484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-08 17:31:31.359  INFO 16484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3496 ms
+2022-12-08 17:31:33.148  INFO 16484 --- [main] o.d.m.util.dialect.MbSqlDialectBuilder   : Build DerbyMbSqlDialect [identifierQuote=", supportsPaging=true, pagingSqlHead=, pagingSqlFoot= OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY, funcNameMax=MAX] for current environment
+2022-12-08 17:31:33.206  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.245  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.276  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.294  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.311  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.383  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.434  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.450  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.947  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:33.964  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:34.033  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:34.157  INFO 16484 --- [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-12-08 17:31:34.471  INFO 16484 --- [main] o.d.m.dbversion.DbVersionManager         : Start upgrade database version from [4.2.0] to the latest
+2022-12-08 17:31:34.471  INFO 16484 --- [main] o.d.m.dbversion.DbVersionManager         : No upgrade sqls for verion [4.2.0], it is already the latest
+2022-12-08 17:31:34.472  INFO 16484 --- [main] o.d.m.dbversion.DbVersionManager         : Finish upgrade database version from [4.2.0] to the latest verion [4.2.0]
+2022-12-08 17:31:34.473  INFO 16484 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : start init XmlDriverEntityManager
+2022-12-08 17:31:34.569  INFO 16484 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcmysql8d0jre8, driverClassName=com.mysql.cj.jdbc.Driver, displayName=mysql-connector-java-8.0.23, displayDesc=null, jreVersion=8, databaseName=MySQL, databaseVersions=[8.0, 5.7, 5.6]]
+2022-12-08 17:31:34.569  INFO 16484 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcoracle21d1jre8, driverClassName=oracle.jdbc.OracleDriver, displayName=ojdbc8-21.1.0.0, displayDesc=null, jreVersion=8, databaseName=Oracle, databaseVersions=[19.x, 18.3, 12.2, 12.1, 11.2]]
+2022-12-08 17:31:34.569  INFO 16484 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcpostgresql42d2jre8, driverClassName=org.postgresql.Driver, displayName=postgresql-42.2.19, displayDesc=null, jreVersion=8, databaseName=PostgreSQL, databaseVersions=[8.2+]]
+2022-12-08 17:31:34.569  INFO 16484 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : init DriverEntity [id=jdbcsqlserver9d2jre8, driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver, displayName=mssql-jdbc-9.2.1.jre8, displayDesc=null, jreVersion=8, databaseName=SQL Server, databaseVersions=[2019, 2017, 2016, 2014, 2012]]
+2022-12-08 17:31:34.570  INFO 16484 --- [main] .d.w.u.XmlDriverEntityManagerInitializer : finish init XmlDriverEntityManager
+2022-12-08 17:31:34.571  INFO 16484 --- [main] rectoryHtmlChartPluginManagerInitializer : Start init DirectoryHtmlChartPluginManager
+2022-12-08 17:31:34.852  INFO 16484 --- [main] rectoryHtmlChartPluginManagerInitializer : No built-in chart plugin need reload
+2022-12-08 17:31:34.853  INFO 16484 --- [main] rectoryHtmlChartPluginManagerInitializer : Finish init DirectoryHtmlChartPluginManager
+2022-12-08 17:31:35.578  INFO 16484 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-12-08 17:31:35.610  INFO 16484 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-12-08 17:31:35.610  INFO 16484 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-12-08 17:31:35.611  INFO 16484 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-12-08 17:31:35.612  INFO 16484 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-12-08 17:31:35.612  INFO 16484 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-12-08 17:31:35.613  INFO 16484 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-12-08 17:31:35.613  INFO 16484 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ae67cad
+2022-12-08 17:31:35.834  WARN 16484 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-12-08 17:31:35.835  INFO 16484 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/static/**'] with []
+2022-12-08 17:31:35.881  INFO 16484 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-12-08 17:31:35.947  INFO 16484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2022-12-08 17:31:35.948  INFO 16484 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-12-08 17:31:35.948  INFO 16484 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-12-08 17:31:36.026  INFO 16484 --- [main] org.datagear.web.DataGearApplication     : Started DataGearApplication in 8.887 seconds (JVM running for 9.444)
+2022-12-08 17:31:50.071  INFO 16484 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-08 17:31:50.072  INFO 16484 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-08 17:31:50.073  INFO 16484 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-08 19:40:23.276 ERROR 16484 --- [http-nio-8085-exec-1] o.d.web.controller.ControllerAdvice      : Operation error: 
+
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_SCHEMA' caused a violation of foreign key constraint 'DG_FK_DS_SQL_SCHEMA_ID' for key (db153ff14184a77b36c2).  The statement has been rolled back.
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: DELETE FROM DATAGEAR_SCHEMA   WHERE    SCHEMA_ID = ?
+### Cause: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_SCHEMA' caused a violation of foreign key constraint 'DG_FK_DS_SQL_SCHEMA_ID' for key (db153ff14184a77b36c2).  The statement has been rolled back.
+; DELETE on table 'DATAGEAR_SCHEMA' caused a violation of foreign key constraint 'DG_FK_DS_SQL_SCHEMA_ID' for key (db153ff14184a77b36c2).  The statement has been rolled back.; nested exception is org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_SCHEMA' caused a violation of foreign key constraint 'DG_FK_DS_SQL_SCHEMA_ID' for key (db153ff14184a77b36c2).  The statement has been rolled back.
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251) ~[spring-jdbc-5.3.18.jar!/:5.3.18]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70) ~[spring-jdbc-5.3.18.jar!/:5.3.18]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	at com.sun.proxy.$Proxy78.delete(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:310) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	at org.datagear.management.service.impl.AbstractMybatisService.deleteMybatis(AbstractMybatisService.java:711) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisEntityService.deleteById(AbstractMybatisEntityService.java:243) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisDataPermissionEntityService.deleteById(AbstractMybatisDataPermissionEntityService.java:288) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisEntityService.deleteById(AbstractMybatisEntityService.java:111) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisDataPermissionEntityService.deleteById(AbstractMybatisDataPermissionEntityService.java:155) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisDataPermissionEntityService$$FastClassBySpringCGLIB$$c630f73d.invoke(<generated>) ~[datagear-management-4.2.0.jar!/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.18.jar!/:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.18.jar!/:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.datagear.management.service.impl.SchemaServiceImpl$$EnhancerBySpringCGLIB$$c5552d82.deleteById(<generated>) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.web.controller.SchemaController.delete(SchemaController.java:189) ~[classes!/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_341]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.18.jar!/:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665) [javax.servlet-api-4.0.1.jar!/:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.18.jar!/:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) [javax.servlet-api-4.0.1.jar!/:4.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.datagear.web.security.AnonymousAuthenticationFilterExt.doFilter(AnonymousAuthenticationFilterExt.java:94) [classes!/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:102) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:93) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.datagear.web.security.LoginLatchFilter.doFilter(LoginLatchFilter.java:122) [classes!/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.60.jar!/:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_341]
+Caused by: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_SCHEMA' caused a violation of foreign key constraint 'DG_FK_DS_SQL_SCHEMA_ID' for key (db153ff14184a77b36c2).  The statement has been rolled back.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.execute(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:94) ~[commons-dbcp2-2.9.0.jar!/:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:94) ~[commons-dbcp2-2.9.0.jar!/:2.9.0]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:45) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:73) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:115) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:75) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:170) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:185) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_341]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	... 120 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: DELETE on table 'DATAGEAR_SCHEMA' caused a violation of foreign key constraint 'DG_FK_DS_SQL_SCHEMA_ID' for key (db153ff14184a77b36c2).  The statement has been rolled back.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.ReferencedKeyRIChecker.doCheck(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.RISetChecker.doPKCheck(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.DeleteResultSet.runFkChecker(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.DeleteCascadeResultSet.runFkChecker(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.DeleteCascadeResultSet.open(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	... 137 common frames omitted
+
+2022-12-08 19:40:30.327 ERROR 16484 --- [http-nio-8085-exec-6] o.d.web.controller.ControllerAdvice      : Operation error: 
+
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_ANALYSIS_PROJECT' caused a violation of foreign key constraint 'DG_FK_DS_APP_ID' for key (2b56cd436184a77bb998).  The statement has been rolled back.
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: DELETE FROM DATAGEAR_ANALYSIS_PROJECT   WHERE    AP_ID = ?
+### Cause: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_ANALYSIS_PROJECT' caused a violation of foreign key constraint 'DG_FK_DS_APP_ID' for key (2b56cd436184a77bb998).  The statement has been rolled back.
+; DELETE on table 'DATAGEAR_ANALYSIS_PROJECT' caused a violation of foreign key constraint 'DG_FK_DS_APP_ID' for key (2b56cd436184a77bb998).  The statement has been rolled back.; nested exception is org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_ANALYSIS_PROJECT' caused a violation of foreign key constraint 'DG_FK_DS_APP_ID' for key (2b56cd436184a77bb998).  The statement has been rolled back.
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251) ~[spring-jdbc-5.3.18.jar!/:5.3.18]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70) ~[spring-jdbc-5.3.18.jar!/:5.3.18]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	at com.sun.proxy.$Proxy78.delete(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:310) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	at org.datagear.management.service.impl.AbstractMybatisService.deleteMybatis(AbstractMybatisService.java:711) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisEntityService.deleteById(AbstractMybatisEntityService.java:243) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisDataPermissionEntityService.deleteById(AbstractMybatisDataPermissionEntityService.java:288) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisEntityService.deleteById(AbstractMybatisEntityService.java:111) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisDataPermissionEntityService.deleteById(AbstractMybatisDataPermissionEntityService.java:155) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.management.service.impl.AbstractMybatisDataPermissionEntityService$$FastClassBySpringCGLIB$$c630f73d.invoke(<generated>) ~[datagear-management-4.2.0.jar!/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.18.jar!/:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.18.jar!/:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar!/:5.3.18]
+	at org.datagear.management.service.impl.AnalysisProjectServiceImpl$$EnhancerBySpringCGLIB$$4e36972c.deleteById(<generated>) ~[datagear-management-4.2.0.jar!/:na]
+	at org.datagear.web.controller.AnalysisProjectController.delete(AnalysisProjectController.java:155) ~[classes!/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_341]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.18.jar!/:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665) [javax.servlet-api-4.0.1.jar!/:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.18.jar!/:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) [javax.servlet-api-4.0.1.jar!/:4.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.datagear.web.security.AnonymousAuthenticationFilterExt.doFilter(AnonymousAuthenticationFilterExt.java:94) [classes!/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:102) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:93) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.datagear.web.security.LoginLatchFilter.doFilter(LoginLatchFilter.java:122) [classes!/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.6.2.jar!/:5.6.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.18.jar!/:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.60.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.60.jar!/:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_341]
+Caused by: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: DELETE on table 'DATAGEAR_ANALYSIS_PROJECT' caused a violation of foreign key constraint 'DG_FK_DS_APP_ID' for key (2b56cd436184a77bb998).  The statement has been rolled back.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.execute(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:94) ~[commons-dbcp2-2.9.0.jar!/:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:94) ~[commons-dbcp2-2.9.0.jar!/:2.9.0]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:45) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:73) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:115) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:75) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:170) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:185) ~[mybatis-3.3.1.jar!/:3.3.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_341]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-1.3.1.jar!/:1.3.1]
+	... 120 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: DELETE on table 'DATAGEAR_ANALYSIS_PROJECT' caused a violation of foreign key constraint 'DG_FK_DS_APP_ID' for key (2b56cd436184a77bb998).  The statement has been rolled back.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.ReferencedKeyRIChecker.doCheck(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.RISetChecker.doPKCheck(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.DeleteResultSet.collectAffectedRows(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.execute.DeleteResultSet.open(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source) ~[derby-10.14.2.0.jar!/:na]
+	... 137 common frames omitted
+
