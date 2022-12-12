@@ -1,56 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>index</title>
   <script type="text/javascript" src="js/jquery.js"></script>
-  <link rel="stylesheet" href="css/comon0.css">
-  <link rel="stylesheet" href="css/swiper.min.css">
-	<script src="js/swiper.min.js"></script>
-
+  <link rel="stylesheet" href="css/comon0.css" />
+  <link rel="stylesheet" href="css/swiper.min.css" />
+  <script src="js/swiper.min.js"></script>
 </head>
 
 <body>
   <div class="loading">
-    <div class="loadbox"> <img src="images/loading.gif"> 页面加载中... </div>
+    <div class="loadbox"><img src="images/loading.gif" /> 页面加载中...</div>
   </div>
   <div class="head">
     <h1>芯片质检数据可视化面板</h1>
     <div class="time" id="showTime">2019/11/29 0:12:42</div>
     <script>
       var t = null;
-      t = setTimeout(time, 1000);//開始运行
+      t = setTimeout(time, 1000); //開始运行
       function time() {
-        clearTimeout(t);//清除定时器
+        clearTimeout(t); //清除定时器
         dt = new Date();
         var y = dt.getFullYear();
         var mt = dt.getMonth() + 1;
         var day = dt.getDate();
-        var h = dt.getHours();//获取时
-        var m = dt.getMinutes();//获取分
-        var s = dt.getSeconds();//获取秒
+        var h = dt.getHours(); //获取时
+        var m = dt.getMinutes(); //获取分
+        var s = dt.getSeconds(); //获取秒
         var t = null;
-        document.getElementById("showTime").innerHTML = y + "/" + Appendzero(mt) + "/" + Appendzero(day) + " " + Appendzero(h) + ":" + Appendzero(m) + ":" + Appendzero(s) + "";
+        document.getElementById("showTime").innerHTML =
+          y +
+          "/" +
+          Appendzero(mt) +
+          "/" +
+          Appendzero(day) +
+          " " +
+          Appendzero(h) +
+          ":" +
+          Appendzero(m) +
+          ":" +
+          Appendzero(s) +
+          "";
         function Appendzero(obj) {
           if (obj < 10) return "0" + "" + obj;
           else return obj;
         }
-        t = setTimeout(time, 1000); //设定定时器，循环运行     
+        t = setTimeout(time, 1000); //设定定时器，循环运行
       }
-
     </script>
   </div>
   <div class="mainbox">
     <ul class="clearfix">
       <li>
-        <div class="boxall" style="height: calc(40% - .15rem)">
+        <div class="boxall" style="height: calc(40% - 0.15rem)">
           <div class="alltitle">整体情况</div>
-          <div class="sycm">
+          <div class="sycm figure_left">
             <ul class="clearfix">
               <li>
                 <h2>1920</h2>
-                <span>总检测芯片</span></span>
+                <span>总检测芯片</span>
               </li>
               <li>
                 <h2>1894</h2>
@@ -68,7 +78,7 @@
           </div>
           <div class="boxfoot"></div>
         </div>
-        <div class="boxall" style="height: calc(60% - .15rem)">
+        <div class="boxall" style="height: calc(60% - 0.15rem)">
           <div class="alltitle">季度生产情况</div>
           <div id="bar_map" class="sycm sycm2"></div>
           <div class="boxfoot"></div>
@@ -78,7 +88,7 @@
         <div style="position: relative">
           <div class="barnav">
             <div class="bar">
-              <div class="barbox">
+              <div class="barbox figure_mid">
                 <ul class="clearfix">
                   <li class="pulll_left counter">110片</li>
                   <li class="pulll_left counter">99.1%</li>
@@ -97,20 +107,27 @@
         </div>
         <div class="mapbox">
           <div class="map">
-            <div class="map1"><img src="images/lbx.png"></div>
-            <div class="map2"><img src="images/jt.png"></div>
-            <div class="map3"><img src="images/map.png"></div>
+            <div class="map1"><img src="images/lbx.png" /></div>
+            <div class="map2"><img src="images/jt.png" /></div>
+            <div class="map3"><img src="images/map.png" /></div>
             <div class="map4">
-              <div class="map5"
-                style="height: auto;display: inline-block;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
-              </div>
+              <div class="map5" style="
+                    height: auto;
+                    display: inline-block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                  "></div>
             </div>
           </div>
         </div>
       </li>
       <li>
-        <div class="boxall" style="height: calc(50% - .15rem)">
-          <div class="alltitle"> 各产业线情况 <div class="pulll_right">
+        <div class="boxall" style="height: calc(50% - 0.15rem)">
+          <div class="alltitle">
+            各产业线情况
+            <div class="pulll_right">
               <a href="https://gitee.com/iGaoWei/big-data-view"><span></span>良好</a>
               <a href="https://gitee.com/iGaoWei/big-data-view"><span></span>残缺</a>
             </div>
@@ -120,53 +137,32 @@
 
           <div class="boxfoot"></div>
         </div>
-        <div class="boxall" style="height: calc(50% - .15rem)">
+        <div class="boxall" style="height: calc(50% - 0.15rem)">
           <div class="alltitle">实时播报</div>
-          <div class="wrap boxnav">
+          <div class="wrap boxnav figure_right">
             <ul>
               <li>
-                <p><span>003号产业线</span><span>2FF8ECE3-45A6-7922-2F21-F4789BE3815D</span><span>正常</span></p>
+                <p>
+                  <span>003号产业线</span><span>2FF8ECE3-45A6-7922-2F21-F4789BE3815D</span><span>正常</span>
+                </p>
               </li>
-              <li>
-                <p><span>001号产业线</span><span>4E8FB4E3-02D7-506F-3232-BC6C9BF9B1B4</span><span>正常</span></p>
-              </li>
-              <li>
-                <p><span>005号产业线</span><span>750B4869-4EF3-BEF4-D2B9-B26BEF170180</span><span>正常</span></p>
-              </li>
-              <li>
-                <p><span>002号产业线</span><span>A2DD7AD0-966E-64CB-A7BF-A348A658248B</span><span>正常</span></p>
-              </li>
-              <li>
-                <p><span>002号产业线</span><span>BF65F5DD-A9A2-F329-318D-E547119D17A6</span><span>正常</span></p>
-              </li>
-              <li>
-                <p><span>002号产业线</span><span>BF65F5DD-A9A2-F329-318D-E547119D17A6</span><span>正常</span></p>
-              </li>
-              <li>
-                <p><span>002号产业线</span><span>BF65F5DD-A9A2-F329-318D-E547119D17A6</span><span>正常</span></p>
-              </li>
-              <li>
-                <p><span>002号产业线</span><span>BF65F5DD-A9A2-F329-318D-E547119D17A6</span><span>正常</span></p>
-              </li>
-              <li>
-                <p><span>002号产业线</span><span>BF65F5DD-A9A2-F329-318D-E547119D17A6</span><span>正常</span></p>
-              </li>
-
             </ul>
           </div>
           <div class="boxfoot"></div>
         </div>
       </li>
     </ul>
-    <div class="copyright">版权所有：重庆电子工程职业学院 渝ICP备15031517号-4</div>
+    <div class="copyright">
+      版权所有：重庆电子工程职业学院 渝ICP备15031517号-4
+    </div>
   </div>
 
   <div class="mainbox2">
     <ul class="clearfix">
       <li>
-
         <div class="boxall" style="height: 100%">
-          <div class="alltitle">各生产线情况
+          <div class="alltitle">
+            各生产线情况
             <div class="pulll_right">
               <a><span></span>良品</a>
               <a><span></span>残缺</a>
@@ -182,11 +178,11 @@
           </div>
           <div class="boxfoot"></div>
         </div>
-
       </li>
       <li>
-        <div class="boxall" style="height:100%">
-          <div class="alltitle">产业情况
+        <div class="boxall" style="height: 100%">
+          <div class="alltitle">
+            产业情况
             <div class="pulll_right sebtn">
               <a class="active">近七天</a>
               <a>近30天</a>
@@ -197,7 +193,6 @@
           <div class="boxfoot"></div>
         </div>
       </li>
-
     </ul>
   </div>
 
@@ -206,74 +201,198 @@
   <script type="text/javascript" src="js/china.js"></script>
   <script src="js/jquery.liMarquee.js"></script>
   <script>
-    $(function () {
-      $('.wrap,.adduser').liMarquee({
-        direction: 'up',//身上滚动 
-        runshort: false,//内容不足时不滚动
-        scrollamount: 20//速度
-      });
-    });
-
+    $(function () { });
   </script>
   <script type="text/javascript">
-    // $('.counter').countUp();
+      // $('.counter').countUp();
   </script>
-
 </body>
 <script>
   $(document).ready(function () {
-    var chartDom = document.getElementById('bar_map');
+    let baseBody = {
+      "dataSet": {
+        "mutableModel": false,
+        "properties": [],
+        "params": [],
+        "dataFormat": {
+          "dateFormat": "yyyy-MM-dd",
+          "timeFormat": "HH:mm:ss",
+          "timestampFormat": "yyyy-MM-dd HH:mm:ss",
+          "numberFormat": "#.##########"
+        },
+        "createTime": "2022-12-08 19:24:12",
+        "dataPermission": -9,
+        "dataSetType": "SQL",
+        "analysisProject": {
+          "id": "a1db811bb184f1156ebb",
+          "name": "microchip-quality-control-dev",
+          "desc": "",
+          "createUser": {
+            "id": "admin",
+            "name": "admin",
+            "realName": "admin",
+            "email": "",
+            "admin": true,
+            "anonymous": false,
+            "createTime": "2022-11-24 10:28:20",
+            "roles": [],
+            "nameLabel": "admin"
+          },
+          "createTime": "2022-12-08 17:33:37",
+          "dataPermission": 99
+        },
+        "shmConFactory": {
+          "schema": {
+            "id": "f9f99f7af184f114c1f4",
+            "title": "microchip-quality-control-dev",
+            "url": "jdbc:mysql://127.0.0.1:3306/microchip-quality-control-dev?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8",
+            "user": "root",
+            "createUser": {
+              "id": "admin",
+              "name": "admin",
+              "realName": "admin",
+              "email": "",
+              "admin": true,
+              "anonymous": false,
+              "createTime": "2022-11-24 10:28:20",
+              "roles": [],
+              "nameLabel": "admin"
+            },
+            "createTime": "2022-12-08 17:33:00",
+            "driverEntity": {
+              "id": "jdbcmysql8d0jre8",
+              "displayDescMore": ""
+            },
+            "properties": [],
+            "dataPermission": 99
+          }
+        },
+        "name": "text",
+        "sql": "WITH very_good AS (SELECT COUNT(id) AS count_number FROM quality WHERE ping_result =1 AND classify_result=1), count_number AS(SELECT COUNT(id) AS count_number FROM quality), pin AS(SELECT COUNT(id) AS count_number FROM quality WHERE ping_result =0), ng AS(SELECT COUNT(id) AS count_number FROM quality WHERE classify_result=0) SELECT count_number.count_number AS sum_count, very_good.count_number AS good_num, very_good.count_number/count_number.count_number AS lpv, pin.count_number AS qj_number,ng.count_number AS hh_number FROM very_good,pin,ng,count_number;"
+      },
+      "query": {
+        "resultFetchSize": 100,
+        "paramValues": {}
+      }
+    };
+    console.log(baseBody.dataSet.sql);
+    $.ajax({
+      url: "http://localhost:50401/dataSet/previewSql",
+      type: 'post',
+      dataType: "json",
+      contentType: "application/json",
+      data: JSON.stringify(baseBody),
+      success: (res) => {
+        console.log("284", res);
+        $(".figure_left h2").eq(0).text(res.result.data[0]["sum_count"]);
+        $(".figure_left h2").eq(1).text(res.result.data[0]["good_num"]);
+        $(".figure_left h2")
+          .eq(2)
+          .text(res.result.data[0]["lpv"].toFixed(3) * 100 + "%");
+        $(".figure_left h2")
+          .eq(3)
+          .text(((1 - res.result.data[0]["lpv"]).toFixed(3) * 100).toFixed(1) + "%");
+      },
+    });
+    baseBody.dataSet.sql = "WITH very_good AS (SELECT COUNT(id) AS count_number FROM quality WHERE ping_result =1 AND	classify_result=1 AND TO_DAYS(sampling_time) = TO_DAYS(NOW())), count_number AS(SELECT COUNT(id) AS count_number FROM quality WHERE TO_DAYS(sampling_time) = TO_DAYS(NOW())), pin AS(SELECT COUNT(id) AS count_number FROM quality WHERE ping_result =0 AND TO_DAYS(sampling_time) = TO_DAYS(NOW())), ng AS(SELECT COUNT(id) AS count_number FROM quality WHERE classify_result=0 AND TO_DAYS(sampling_time) = TO_DAYS(NOW())) SELECT count_number.count_number AS sum_count, very_good.count_number AS good_num, very_good.count_number/count_number.count_number AS lpv, pin.count_number AS qj_number,ng.count_number AS hh_number FROM very_good,pin,ng,count_number;";
+    $.ajax({
+      url: "http://localhost:50401/dataSet/previewSql",
+      type: 'post',
+      dataType: "json",
+      contentType: "application/json",
+      data: JSON.stringify(baseBody),
+      success: (res) => {
+        $(".figure_mid li").eq(0).text(res.result.data[0]["sum_count"]);
+        $(".figure_mid li")
+          .eq(1)
+          .text((res.result.data[0]["lpv"].toFixed(3) * 100 + "%"));
+        console.log("309",(1- Number(res.result.data[0]["lpv"])).toFixed(3));
+        $(".figure_mid li")
+          .eq(2)
+          .text((((1- Number(res.result.data[0]["lpv"])).toFixed(3)) * 100).toFixed(1) + "%");
+      },
+    });
+
+    baseBody.dataSet.sql = "SELECT q.id, q.assembly_line_id, q.sampling_time, q.distinguish_time, q.ping_result, q.classify_result, q.imagePath, al.a_l_name, q.distinguish_time - q.ms AS ms FROM quality AS q LEFT JOIN assembly_line AS al ON al.uid = q.assembly_line_id ORDER BY q.sampling_time DESC"
+    $.ajax({
+      url: "http://localhost:50401/dataSet/previewSql",
+      type: 'post',
+      dataType: "json",
+      contentType: "application/json",
+      data: JSON.stringify(baseBody),
+      success: (res) => {
+        $(".figure_right ul").empty();
+        res.result.data.forEach((obj) => {
+          $(".figure_right ul").append(
+            `<li><p><span>${obj["a_l_name"]}</span><span>${obj[
+              "id"
+            ].toUpperCase()}</span><span>${obj["classify_result"] == 1 && obj["ping_result"] == 1
+              ? "正常"
+              : "错误"
+            }</span></p></li>`
+          );
+        });
+        $(".wrap,.adduser").liMarquee({
+          direction: "up", //身上滚动
+          runshort: false, //内容不足时不滚动
+          scrollamount: 20, //速度
+        });
+      },
+    });
+
+    //echarts
+    var chartDom = document.getElementById("bar_map");
     var myChart = echarts.init(chartDom);
     var option;
 
     option = {
-      color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+      color: ["#80FFA5", "#00DDFF", "#37A2FF", "#FF0087", "#FFBF00"],
       title: {
         // text: 'Gradient Stacked Area Chart'
       },
       tooltip: {
-        trigger: 'axis',
+        trigger: "axis",
         axisPointer: {
-          type: 'cross',
+          type: "cross",
           label: {
-            backgroundColor: '#6a7985'
-          }
-        }
+            backgroundColor: "#6a7985",
+          },
+        },
       },
       legend: {
-        data: ['第一季度', '第二季度', '第三季度', '第四季度', '第五季度']
+        data: ["第一季度", "第二季度", "第三季度", "第四季度", "第五季度"],
       },
       toolbox: {
         feature: {
-          saveAsImage: {}
-        }
+          saveAsImage: {},
+        },
       },
       grid: {
-        left: '3%',
-        right: '4%',
-        bottom: '3%',
-        containLabel: true
+        left: "3%",
+        right: "4%",
+        bottom: "3%",
+        containLabel: true,
       },
       xAxis: [
         {
-          type: 'category',
+          type: "category",
           boundaryGap: false,
-          data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-        }
+          data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        },
       ],
       yAxis: [
         {
-          type: 'value'
-        }
+          type: "value",
+        },
       ],
       series: [
         {
-          name: '第一季度',
-          type: 'line',
-          stack: 'Total',
+          name: "第一季度",
+          type: "line",
+          stack: "Total",
           smooth: true,
           lineStyle: {
-            width: 0
+            width: 0,
           },
           showSymbol: false,
           areaStyle: {
@@ -281,26 +400,26 @@
             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
               {
                 offset: 0,
-                color: 'rgb(128, 255, 165)'
+                color: "rgb(128, 255, 165)",
               },
               {
                 offset: 1,
-                color: 'rgb(1, 191, 236)'
-              }
-            ])
+                color: "rgb(1, 191, 236)",
+              },
+            ]),
           },
           emphasis: {
-            focus: 'series'
+            focus: "series",
           },
-          data: [140, 232, 101, 264, 90, 340, 250]
+          data: [140, 232, 101, 264, 90, 340, 250],
         },
         {
-          name: '第二季度',
-          type: 'line',
-          stack: 'Total',
+          name: "第二季度",
+          type: "line",
+          stack: "Total",
           smooth: true,
           lineStyle: {
-            width: 0
+            width: 0,
           },
           showSymbol: false,
           areaStyle: {
@@ -308,26 +427,26 @@
             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
               {
                 offset: 0,
-                color: 'rgb(0, 221, 255)'
+                color: "rgb(0, 221, 255)",
               },
               {
                 offset: 1,
-                color: 'rgb(77, 119, 255)'
-              }
-            ])
+                color: "rgb(77, 119, 255)",
+              },
+            ]),
           },
           emphasis: {
-            focus: 'series'
+            focus: "series",
           },
-          data: [120, 282, 111, 234, 220, 340, 310]
+          data: [120, 282, 111, 234, 220, 340, 310],
         },
         {
-          name: '第三季度',
-          type: 'line',
-          stack: 'Total',
+          name: "第三季度",
+          type: "line",
+          stack: "Total",
           smooth: true,
           lineStyle: {
-            width: 0
+            width: 0,
           },
           showSymbol: false,
           areaStyle: {
@@ -335,26 +454,26 @@
             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
               {
                 offset: 0,
-                color: 'rgb(55, 162, 255)'
+                color: "rgb(55, 162, 255)",
               },
               {
                 offset: 1,
-                color: 'rgb(116, 21, 219)'
-              }
-            ])
+                color: "rgb(116, 21, 219)",
+              },
+            ]),
           },
           emphasis: {
-            focus: 'series'
+            focus: "series",
           },
-          data: [320, 132, 201, 334, 190, 130, 220]
+          data: [320, 132, 201, 334, 190, 130, 220],
         },
         {
-          name: '第四季度',
-          type: 'line',
-          stack: 'Total',
+          name: "第四季度",
+          type: "line",
+          stack: "Total",
           smooth: true,
           lineStyle: {
-            width: 0
+            width: 0,
           },
           showSymbol: false,
           areaStyle: {
@@ -362,51 +481,51 @@
             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
               {
                 offset: 0,
-                color: 'rgb(255, 0, 135)'
+                color: "rgb(255, 0, 135)",
               },
               {
                 offset: 1,
-                color: 'rgb(135, 0, 157)'
-              }
-            ])
+                color: "rgb(135, 0, 157)",
+              },
+            ]),
           },
           emphasis: {
-            focus: 'series'
+            focus: "series",
           },
-          data: [220, 402, 231, 134, 190, 230, 120]
+          data: [220, 402, 231, 134, 190, 230, 120],
         },
         {
-          name: '第五季度',
-          type: 'line',
-          stack: 'Total',
+          name: "第五季度",
+          type: "line",
+          stack: "Total",
           smooth: true,
           lineStyle: {
-            width: 0
+            width: 0,
           },
           showSymbol: false,
           label: {
             show: true,
-            position: 'top'
+            position: "top",
           },
           areaStyle: {
             opacity: 0.8,
             color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
               {
                 offset: 0,
-                color: 'rgb(255, 191, 0)'
+                color: "rgb(255, 191, 0)",
               },
               {
                 offset: 1,
-                color: 'rgb(224, 62, 76)'
-              }
-            ])
+                color: "rgb(224, 62, 76)",
+              },
+            ]),
           },
           emphasis: {
-            focus: 'series'
+            focus: "series",
           },
-          data: [220, 302, 181, 234, 210, 290, 150]
-        }
-      ]
+          data: [220, 302, 181, 234, 210, 290, 150],
+        },
+      ],
     };
 
     option && myChart.setOption(option);
